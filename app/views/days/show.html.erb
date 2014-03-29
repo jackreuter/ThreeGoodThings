@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Day of the Week:</strong>
+  <%= @day.dayOfTheWeek %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @day.date %>
+</p>
+
+<p>
+  <strong>Month:</strong>
+  <%= @day.month %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @day.year %>
+</p>
+
+<p>
+  <strong>Thing One:</strong>
+  <%= @day.thingOne %>
+</p>
+
+<p>
+  <strong>Thing Two:</strong>
+  <%= @day.thingTwo %>
+</p>
+
+<p>
+  <strong>Thing Three:</strong>
+  <%= @day.thingThree %>
+</p>
+
+<%= link_to 'Edit', edit_day_path(@day) %> |
+<%= link_to 'Back', days_path %>
